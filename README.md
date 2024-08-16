@@ -2,7 +2,7 @@
 
 # [Ecosorter - IMPA TRQ](https://www.instagram.com/proyecto_ecosorter24/)
 
-<img src="/imagenes/ecosorter.png"/>
+<img src="/Imagenes/ecosorter.png"/>
 
 &nbsp;
 
