@@ -62,11 +62,13 @@
 
     <a href="{{ url_for('medidas') }}" class="button">Inicio</a>
 
+    <script>
+        setTimeout(function() {
+            window.location.href = "{{ url_for('medidas') }}";
+        }, 7000);
+    </script>
+
 
 </body>
 </html>
-
-
-
-
 
