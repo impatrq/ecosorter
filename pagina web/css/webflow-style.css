@@ -2202,6 +2202,7 @@ p {
   border-radius: 12px;
   flex-flow: column;
   padding: 98px 10px;
+  transition: opacity .2s;
   display: block;
 }
 
@@ -2354,7 +2355,8 @@ p {
 }
 
 .team-image {
-  box-sizing: border-box;
+  box-sizing: content-box;
+  aspect-ratio: auto;
   vertical-align: middle;
   object-fit: none;
   border-radius: 100%;
@@ -2486,6 +2488,7 @@ p {
 .contact-text {
   color: #212121;
   font-size: 17px;
+  display: block;
 }
 
 .link {
