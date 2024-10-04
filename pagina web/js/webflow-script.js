@@ -2281,6 +2281,19 @@
     "packages/shared/render/plugins/Form/webflow-forms.js"(exports, module) {
       "use strict";
       var Webflow = require_webflow_lib();
+      var renderTurnstileCaptcha = (siteKey, formElement, cb, errorCallback) => {
+        const captchaContainer = document.createElement("div");
+        formElement.appendChild(captchaContainer);
+        turnstile.render(captchaContainer, {
+          sitekey: siteKey,
+          callback: function(token) {
+            return cb(token);
+          },
+          "error-callback": function() {
+            errorCallback();
+          }
+        });
+      };
       Webflow.define("forms", module.exports = function($, _) {
         var api = {};
         var $doc = $(document);
@@ -2370,13 +2383,38 @@
         }
         function addListeners() {
           listening = true;
-          $doc.on("submit", namespace + " form", function(evt) {
-            var data = $.data(this, namespace);
-            if (data.handler) {
-              data.evt = evt;
-              data.handler(data);
-            }
-          });
+          const turnstileSiteKey = $doc.find("[data-turnstile-sitekey]").data("turnstile-sitekey");
+          if (turnstileSiteKey) {
+            const script = document.createElement("script");
+            script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js";
+            document.head.appendChild(script);
+            script.onload = () => {
+              $doc.on("submit", namespace + " form", function(evt) {
+                var data = $.data(this, namespace);
+                disableBtn(data);
+                if (data.handler) {
+                  data.evt = evt;
+                  evt.preventDefault();
+                  renderTurnstileCaptcha(turnstileSiteKey, this, (turnstileToken) => data.handler({
+                    ...data,
+                    turnstileToken
+                  }), () => {
+                    data.fail.toggle(true);
+                    data.fail.focus();
+                    reset(data);
+                  });
+                }
+              });
+            };
+          } else {
+            $doc.on("submit", namespace + " form", function(evt) {
+              var data = $.data(this, namespace);
+              if (data.handler) {
+                data.evt = evt;
+                data.handler(data);
+              }
+            });
+          }
           const CHECKBOX_CLASS_NAME = ".w-checkbox-input";
           const RADIO_INPUT_CLASS_NAME = ".w-radio-input";
           const CHECKED_CLASS = "w--redirected-checked";

@@ -2054,9 +2054,9 @@ textarea.w-input, textarea.w-select {
 }
 
 :root {
+  --color-2: #000;
   --medium-aquamarine: #7ec4bd;
   --color: #00ff90;
-  --color-2: #000;
   --medium-aquamarine-2: #7ec4bd;
   --white-smoke: whitesmoke;
 }
@@ -2486,7 +2486,7 @@ p {
 }
 
 .contact-text {
-  color: #212121;
+  color: var(--color-2);
   font-size: 17px;
   display: block;
 }
@@ -2740,6 +2740,10 @@ p {
 
 .container-4 {
   background-color: #7ec4bd;
+}
+
+.link-3 {
+  color: var(--color-2);
 }
 
 @media screen and (max-width: 991px) {
