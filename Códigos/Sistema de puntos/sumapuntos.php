@@ -3,7 +3,7 @@
 
     if(isset($_SESSION['usuario'])){
         header("location: bienvenida.php");
-        $_SESSION['puntos']++;
+        $_SESSION['puntos'] = $_SESSION['puntos'] + 5;
     }
 
 

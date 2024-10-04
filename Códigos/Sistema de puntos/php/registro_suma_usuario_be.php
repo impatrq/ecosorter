@@ -6,7 +6,7 @@
     $correo = $_POST['correo'];
     $usuario = $_POST['usuario'];
     $contrasena = $_POST['contrasena'];
-    $puntos = 1;
+    $puntos = 5;
 
     //Encriptando contraseña
     $contrasena = hash('sha512', $contrasena);
