@@ -2055,9 +2055,9 @@ textarea.w-input, textarea.w-select {
 
 :root {
   --color-2: #000;
-  --medium-aquamarine: #7ec4bd;
-  --color: #00ff90;
   --medium-aquamarine-2: #7ec4bd;
+  --color: #00ff90;
+  --medium-aquamarine: #39e026cf;
   --white-smoke: whitesmoke;
 }
 
@@ -2562,7 +2562,8 @@ p {
 }
 
 .project-info {
-  background-color: var(--medium-aquamarine);
+  background-color: var(--medium-aquamarine-2);
+  -webkit-text-stroke-color: #39e026;
   margin-bottom: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -2735,7 +2736,7 @@ p {
 }
 
 .container-3 {
-  background-color: var(--medium-aquamarine);
+  background-color: var(--medium-aquamarine-2);
 }
 
 .container-4 {
