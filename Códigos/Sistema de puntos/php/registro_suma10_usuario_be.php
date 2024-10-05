@@ -6,7 +6,7 @@
     $correo = $_POST['correo'];
     $usuario = $_POST['usuario'];
     $contrasena = $_POST['contrasena'];
-    $puntos = 5;
+    $puntos = 10;
 
     //Encriptando contraseña
     $contrasena = hash('sha512', $contrasena);
@@ -21,7 +21,7 @@
         echo '
             <script>
                 alert("Este correo ya está registrado, intenta con otro diferente");
-                window.location = "../sumapuntos.php";
+                window.location = "../suma10puntos.php";
             </script>        
         ';
         exit();
@@ -34,7 +34,7 @@
         echo '
             <script>
                 alert("Este usuario ya está registrado, intenta con otro diferente");
-                window.location = "../sumapuntos.php";
+                window.location = "../suma10puntos.php";
             </script>        
         ';
         exit();
@@ -49,7 +49,7 @@
         echo'
             <script>
                 alert("Intentalo de nuevo, Usuario no almacenado")
-                window.location = "../sumapuntos.php";
+                window.location = "../suma10puntos.php";
             </script>  
         ';  
     }

@@ -16,13 +16,14 @@
         
         $_SESSION['usuario'] = $correo;
         $_SESSION['puntos'] = $row['puntos'];
+        $_SESSION['puntos'] = $_SESSION['puntos'] + 5;
         header("location: ../bienvenida.php");
         exit;
     }else{
         echo '
             <script>
                 alert("Usuario no existe, por favor verifique los datos introducidos");
-                window.location = "../index.php";
+                window.location = "../sumapuntos.php";
             </script>
         ';
         exit;

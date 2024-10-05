@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medidas</title>
-    <meta http-equiv="refresh" content="10">
+    <meta http-equiv="refresh" content="5">
 <style>
     body {
         background-color: blueviolet;
@@ -116,6 +116,33 @@
     z-index: 1000;
     }
 
+    #cincopuntos {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        
+    }
+
+    #diezpuntos{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
     .alert-box {
         background-color: white;
         padding: 20px;
@@ -123,6 +150,17 @@
         text-align: center;
     }
 
+    .qr5 {
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .qr10 {
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+    }
     .hidden {
         display: none;
     }
@@ -142,6 +180,10 @@
         var met = "{{ met }}";
         var vid = "{{ vid }}";
         var res = "{{ res }}";
+        var detPlas = "{{ detPlas }}";
+        var detMet = "{{ detMet }}";
+        var detRes = "{{ detRes }}";
+        var detVid = "{{ detVid }}";
 
         function checkVariable() {
             if (plas >= 100) {
@@ -155,6 +197,18 @@
             }
             if (vid >= 100) {
                 document.getElementById("alert").style.display = "flex";
+            }
+            if (detPlas == 1) {
+                document.getElementById("cincopuntos").style.display = "flex";
+            }
+            if (detMet == 1) {
+                document.getElementById("diezpuntos").style.display = "flex";
+            }
+            if (detRes == 1) {
+                document.getElementById("diezpuntos").style.display = "flex";
+            }
+            if (detVid == 1) {
+                document.getElementById("diezpuntos").style.display = "flex";
             }
             
         }
@@ -184,6 +238,14 @@
             <p>Cambio de cesto necesario</p>
             <button onclick="closeAlert()">Cerrar</button>
         </div>
+    </div>
+
+    <div id="cincopuntos">
+        <img src="../static/QR_5puntos.png" class="qr5" height="250px" width="250px" >
+    </div>
+
+    <div id="diezpuntos">
+        <img src="../static/QR_10puntos.png" class="qr10" height="250px" width="250px" >
     </div>
 </body>
 </html>
