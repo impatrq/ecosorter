@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidas</title>
+    <meta http-equiv="refresh" content="{{ refrescar }}">
+<style>
+    body {
+        background-color: blueviolet;
+    }
+    h1 {
+        text-align: center;
+        font-size: 70px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-shadow: rgba(197, 8, 150, 0.897) 1px 0 10px;
+    }
+    .plastico {
+        position: fixed;
+        top: 35%;
+        left: 20%;
+        font-size: 25px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .metal {
+        position: fixed;
+        left: 20%;
+        top: 70%;
+        font-size: 25px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .residuos {
+        position: fixed;
+        right: 20%;
+        top: 35%;
+        font-size: 25px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .vidrio {
+        position: fixed;
+        right: 22%;
+        top: 70%;
+        font-size: 25px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .cesto {
+        position: fixed;
+        height: 112px;
+        width: 199px;
+    }
+    .izquierda_arriba { 
+        left: 8%;
+    }
+    .izquierda_abajo {
+        left: 8%;
+        top: 65%;
+    }
+    .derecha_arriba {
+        right: 24%;
+    }
+    .derecha_abajo {
+        right: 24%;
+        top: 65%;
+    }
+    progress { 
+        transition: all 2s;
+                    /* Color de fondo de la barra de progreso */
+                    background-color: #f3f3f3;
+    }
+    progress::-webkit-progress-bar {
+            background-color: #e7d8d8 ;
+    }
+
+    progress::-webkit-progress-value {
+        background-color: #89069b ; /* Color de la barra de progreso */
+    }
+
+    progress::-moz-progress-bar {
+        background-color: #df08fc; /* Color de la barra de progreso */
+    }
+    .barra-plas {
+        position: fixed;
+        top: 42%;
+        left: 20.2%
+    }
+    .barra-met {
+        position: fixed;
+        top: 76%;
+        left: 20%;
+    }
+    .barra-res {
+        position: fixed;
+        top: 42%;
+        right: 15.2%;
+    }
+    .barra-vid {
+        position: fixed;
+        top: 76%;
+        right: 15.2%;
+    }
+    .porcen {
+        position: fixed;
+        font-size: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    }
+
+    #cincopuntos {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        
+    }
+
+    #diezpuntos{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .alert-box {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .qr5 {
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .qr10 {
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+    }
+    .hidden {
+        display: none;
+    }
+
+</style>
+
+</head>
+<body onload="checkVariable()"> 
+    <script>
+        
+        function closeAlert() {
+            document.getElementById("alert").style.display = "none";
+        }
+
+        // Simulación de una variable que cambia de valor
+        var plas = "{{ plas }}";
+        var met = "{{ met }}";
+        var vid = "{{ vid }}";
+        var res = "{{ res }}";
+        var detPlas = "{{ detPlas }}";
+        var detMet = "{{ detMet }}";
+        var detRes = "{{ detRes }}";
+        var detVid = "{{ detVid }}";
+
+        function checkVariable() {
+            if (plas >= 100) {
+                document.getElementById("alert").style.display = "flex";
+            }
+            if (res >= 100) {
+                document.getElementById("alert").style.display = "flex";
+            }
+            if (met >= 100) {
+                document.getElementById("alert").style.display = "flex";
+            }
+            if (vid >= 100) {
+                document.getElementById("alert").style.display = "flex";
+            }
+            if (detPlas == 1) {
+                document.getElementById("cincopuntos").style.display = "flex";
+            }
+            if (detMet == 1) {
+                document.getElementById("diezpuntos").style.display = "flex";
+            }
+            if (detRes == 1) {
+                document.getElementById("diezpuntos").style.display = "flex";
+            }
+            if (detVid == 1) {
+                document.getElementById("diezpuntos").style.display = "flex";
+            }
+            
+        }
+
+    </script>
+
+    <h1>Capacidad de cestos</h1>
+    <div class="plastico">Plástico y Cartón</div>
+    <img src="../static/1db2e5c91ba8fd8725c4b0a31fbbddf0.png" alt="cesto" class= "cesto ; izquierda_arriba">
+    <div class="metal">Metales</div>
+    <img src="../static/1db2e5c91ba8fd8725c4b0a31fbbddf0.png" alt="cesto" class= "cesto ; izquierda_abajo">
+    <div class="residuos">Residuos</div>
+    <img src="../static/1db2e5c91ba8fd8725c4b0a31fbbddf0.png" alt="cesto" class= "cesto ; derecha_arriba">
+    <div class="vidrio">Vidrio</div>
+    <img src="../static/1db2e5c91ba8fd8725c4b0a31fbbddf0.png" alt="cesto" class= "cesto ; derecha_abajo">
+    <progress value="{{ plas }}" max="100" class="barra-plas"></progress>
+    <progress value="{{ met }}" max="100" class="barra-met"></progress>
+    <progress value="{{ res }}" max="100" class="barra-res"></progress>
+    <progress value="{{ vid }}" max="100" class="barra-vid"></progress>
+    <div class="porcen ; barra-plas">{{ plas }}%</div>
+    <div class="porcen ; barra-met">{{ met }}%</div>
+    <div class="porcen ; barra-res">{{ res }}%</div>
+    <div class="porcen ; barra-vid">{{ vid }}%</div>
+
+    <div id="alert">
+        <div class="alert-box" >
+            <p>Cambio de cesto necesario</p>
+            <button onclick="closeAlert()">Cerrar</button>
+        </div>
+    </div>
+
+    <div id="cincopuntos">
+        <img src="../static/QR_5puntos.png" class="qr5" height="250px" width="250px" >
+    </div>
+
+    <div id="diezpuntos">
+        <img src="../static/QR_10puntos.png" class="qr10" height="250px" width="250px" >
+    </div>
+</body>
+</html>

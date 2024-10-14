@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <style>
+        body {
+            background: linear-gradient(to left,#25ACBE, #177246, #23871A);
+            
+        }
+        .button {
+            display: inline-block;
+            padding: 20px 40px;
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: black;
+            background-color: white;
+            text-align: center;
+            text-decoration: skyblue;
+            border-radius: 50px;
+            position: fixed;
+            bottom: 100px;
+            right: 160px;
+        }
+        .button:hover {
+            background-color: #25ACBE;
+            transition: all 0.2s ease-in;
+        }
+        h1 {
+            position: fixed;
+            left: 100px;
+            top: 0px;
+            padding: 0px 10px;
+            font-size: 100px;   
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;         
+        }
+        .arriba-derecha {
+            top: 50px;
+            right: 100px;
+            left: 926;
+            padding: 10px 20px;
+            position: fixed;
+            height: 250px;
+            width: 250px;
+        }
+        .abajo-izquierda { 
+            position: fixed;
+            height: 380px;
+            width: 800px;
+            bottom: 10px;
+            left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eco Sorter</h1>
+
+    <img src="../static/ecosorter.png" alt="logo" class="arriba-derecha">
+    
+    <img src="../static/b9f5667e-81eb-4c6c-88c6-529d7fd09982-removebg-preview.png" alt="persona" class="abajo-izquierda">
+
+    <a href="{{ url_for('medidas') }}" class="button">Inicio</a>
+
+    <script>
+        setTimeout(function() {
+            window.location.href = "{{ url_for('medidas') }}";
+        }, 7000);
+    </script>
+
+
+</body>
+</html>
+
+
+
+
+
