@@ -6,10 +6,10 @@
 ### Segunda placa de relés utilizada.
 ![image](https://github.com/user-attachments/assets/919f980c-8079-45af-af29-16f696008061)
 
-### Esquemático de la segunda placa de relés.
+### Placa PCB de la segunda placa de relés.
 ![image](https://github.com/user-attachments/assets/ce79873d-1f82-47c3-a8f9-025f8d1dfce7)
 
-### Placa PCB de la segunda placa de relés.
+### Esquemático de la segunda placa de relés.
 ![image](https://github.com/user-attachments/assets/57e216b9-391a-4df6-bcf2-d72e65c2027f)
 
 ### Primer motor que intentamos adaptar, no se pudo lograr.
