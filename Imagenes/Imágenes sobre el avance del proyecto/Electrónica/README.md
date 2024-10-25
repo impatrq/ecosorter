@@ -31,3 +31,5 @@
 ### Motores NEMA 23 acoplados al eje movilizador del canasto
 ![image](https://github.com/user-attachments/assets/fbc1d282-20b4-4736-951f-210aedd85f8e)
 
+### Fuente genérica de 24V utilizada para alimentar los motores NEMA 23
+![image](https://github.com/user-attachments/assets/67200153-4aa2-4b4d-a369-52daba0be814)
