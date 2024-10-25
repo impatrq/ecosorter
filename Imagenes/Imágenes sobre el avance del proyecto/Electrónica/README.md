@@ -16,20 +16,24 @@
 ### Material ferromagnético colocado en el canasto para ser atraído por el campo del electroimán.
 ![image](https://github.com/user-attachments/assets/36c5a97b-7873-4b8c-bb95-8004365be033)
 
-### Alimentación del electroimán con el Puente H L298N
+### Alimentación del electroimán con el Puente H L298N.
 ![image](https://github.com/user-attachments/assets/a979638d-d54c-4bec-b79c-189d30155a79)
 
 ### Placa controladora de motor paso a paso TD6600, usada para mover la transmisión del canasto y la tapa elevadora del canasto.
 ![image](https://github.com/user-attachments/assets/54052ecf-8332-41ce-a165-34dca55eef90)
 
-### Esquema eléctrico de controladoras para motores NEMA 23
+### Esquema eléctrico de controladoras para motores NEMA 23.
 ![image](https://github.com/user-attachments/assets/52fed0b7-bd7c-4e2f-a4da-6dd02908cb35)
 
-### Conexiones físicas de controladoras y motores NEMA 23
+### Conexiones físicas de controladoras y motores NEMA 23.
 ![image](https://github.com/user-attachments/assets/d9775fa9-5cf7-4939-8651-935b9adbc9d9)
 
-### Motores NEMA 23 acoplados al eje movilizador del canasto
+### Motores NEMA 23 acoplados al eje movilizador del canasto.
 ![image](https://github.com/user-attachments/assets/fbc1d282-20b4-4736-951f-210aedd85f8e)
 
-### Fuente genérica de 24V utilizada para alimentar los motores NEMA 23
+### Fuente genérica de 24V utilizada para alimentar los motores NEMA 23.
 ![image](https://github.com/user-attachments/assets/67200153-4aa2-4b4d-a369-52daba0be814)
+
+### Display LCD para representar interfaz gráfica.
+![image](https://github.com/user-attachments/assets/d6ac3ca4-299d-43fb-9af8-15b9ed54c714)
+
