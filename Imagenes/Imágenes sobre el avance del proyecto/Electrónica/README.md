@@ -3,6 +3,9 @@
 ### Primer placa de relés que utilizamos para probar el sistema.
 ![image](https://github.com/user-attachments/assets/f51ac791-572a-4cf3-95e9-e23687091bf4)
 
+### Segunda placa de relés utilizada.
+![image](https://github.com/user-attachments/assets/919f980c-8079-45af-af29-16f696008061)
+
 ### Primer motor que intentamos adaptar, no se pudo lograr.
 ![image](https://github.com/user-attachments/assets/92723d3b-49b2-4f5e-a08b-d8a3c8559b8c)
 ![image](https://github.com/user-attachments/assets/290fb633-1713-4d17-9334-e2e590ae9727)
