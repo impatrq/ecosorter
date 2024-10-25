@@ -28,3 +28,6 @@
 ### Conexiones físicas de controladoras y motores NEMA 23
 ![image](https://github.com/user-attachments/assets/d9775fa9-5cf7-4939-8651-935b9adbc9d9)
 
+### Motores NEMA 23 acoplados al eje movilizador del canasto
+![image](https://github.com/user-attachments/assets/fbc1d282-20b4-4736-951f-210aedd85f8e)
+
