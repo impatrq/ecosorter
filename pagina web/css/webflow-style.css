@@ -2747,6 +2747,10 @@ p {
   color: var(--color-2);
 }
 
+.div-block-3 {
+  display: block;
+}
+
 @media screen and (max-width: 991px) {
   .nav-link {
     margin: 0 auto;
