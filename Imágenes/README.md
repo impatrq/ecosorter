@@ -1,0 +1,1 @@
+## En esta carpeta dejamos algunas imágenes sobre el avance en general del proyecto.
