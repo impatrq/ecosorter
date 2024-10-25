@@ -19,3 +19,9 @@
 ### Placa controladora de motor paso a paso TD6600, usada para mover la transmisión del canasto y la tapa elevadora del canasto.
 ![image](https://github.com/user-attachments/assets/54052ecf-8332-41ce-a165-34dca55eef90)
 
+### Esquema eléctrico de controladoras para motores NEMA 23
+![image](https://github.com/user-attachments/assets/52fed0b7-bd7c-4e2f-a4da-6dd02908cb35)
+
+### Conexiones físicas de controladoras y motores NEMA 23
+![image](https://github.com/user-attachments/assets/d9775fa9-5cf7-4939-8651-935b9adbc9d9)
+
