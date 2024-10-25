@@ -1,8 +1,8 @@
 ## Primeros logos del proyecto
 ![image](https://github.com/user-attachments/assets/fc3a71dd-c482-4871-aa16-dcc5ddaf8a30)
-![image](https://github.com/user-attachments/assets/483069bf-04ec-4cd8-94e2-b8eb342183c9)
-![image](https://github.com/user-attachments/assets/e3287eea-6047-494a-9206-22222239a533)
-![image](https://github.com/user-attachments/assets/16215ba5-bb45-4922-be92-4cc7d3aaf0ac)
+![image](https://github.com/user-attachments/assets/d265daa0-4d5a-428c-9ad6-a295dc38e732)
+![image](https://github.com/user-attachments/assets/87a2cfd1-2153-4cbf-89a8-4c1291bafc7d)
+![image](https://github.com/user-attachments/assets/239e8e0d-492e-438e-a0cc-3cf8dca01409)
 
 ## Logo final del proyecto
 ![image](https://github.com/user-attachments/assets/48a2f378-71c6-48d7-b6e3-f67df8f8caad)
