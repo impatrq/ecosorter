@@ -15,3 +15,7 @@
 
 ### Material ferromagnético colocado en el canasto para ser atraído por el campo del electroimán.
 ![image](https://github.com/user-attachments/assets/36c5a97b-7873-4b8c-bb95-8004365be033)
+
+### Placa controladora de motor paso a paso TD6600, usada para mover la transmisión del canasto y la tapa elevadora del canasto.
+![image](https://github.com/user-attachments/assets/54052ecf-8332-41ce-a165-34dca55eef90)
+
