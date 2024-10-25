@@ -7,3 +7,6 @@
 ![image](https://github.com/user-attachments/assets/92723d3b-49b2-4f5e-a08b-d8a3c8559b8c)
 ![image](https://github.com/user-attachments/assets/290fb633-1713-4d17-9334-e2e590ae9727)
 
+### Primer electroimán utilizado con la función de trabar el canasto cuando se le coloque un objeto encima, bobinado hecho a mano con pocas vueltas y no muy efectivo.
+![image](https://github.com/user-attachments/assets/a0c98eed-08bf-43af-89d4-4dbcb4389226)
+
