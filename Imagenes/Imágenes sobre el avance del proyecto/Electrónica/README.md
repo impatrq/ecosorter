@@ -10,3 +10,8 @@
 ### Primer electroimán utilizado con la función de trabar el canasto cuando se le coloque un objeto encima, bobinado hecho a mano con pocas vueltas y no muy efectivo.
 ![image](https://github.com/user-attachments/assets/a0c98eed-08bf-43af-89d4-4dbcb4389226)
 
+### Electroimán definitivo.
+![image](https://github.com/user-attachments/assets/7787652a-595b-4c67-bd2d-c3e8768d8c7a)
+
+### Material ferromagnético colocado en el canasto para ser atraído por el campo del electroimán.
+![image](https://github.com/user-attachments/assets/36c5a97b-7873-4b8c-bb95-8004365be033)
