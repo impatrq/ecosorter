@@ -1,1 +1,1 @@
-## A continuación dejaremos imágenes más sobre el avance del proyecto
+## A continuación dejaremos más imágenes sobre el avance del proyecto
