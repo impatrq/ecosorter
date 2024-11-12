@@ -10,3 +10,7 @@ LINK: https://vm.tiktok.com/ZMhpNB3wS/
 ¿COMO HACE ESTO?
 
 LINK: https://vm.tiktok.com/ZMhpNfQCU/
+
+TECNOLOGÍA UTILIZADA
+
+LINK: https://vm.tiktok.com/ZMhpNkEmh/
