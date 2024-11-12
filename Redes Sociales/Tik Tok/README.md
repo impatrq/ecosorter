@@ -22,3 +22,7 @@ LINK: https://vm.tiktok.com/ZMhpNVBPU/
 BENEFICIOS
 
 LINK: https://vm.tiktok.com/ZMhpF13ku/
+
+IMPACTO SOCIAL 
+
+LINK: https://vm.tiktok.com/ZMhpNWskP/
