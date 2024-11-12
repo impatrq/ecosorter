@@ -14,3 +14,7 @@ LINK: https://vm.tiktok.com/ZMhpNfQCU/
 TECNOLOGÍA UTILIZADA
 
 LINK: https://vm.tiktok.com/ZMhpNkEmh/
+
+OBJETIVOS
+
+LINK: https://vm.tiktok.com/ZMhpNVBPU/
