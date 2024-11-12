@@ -51,6 +51,7 @@ Somos un grupo de alumnos de E.E.S.T. N°7 "Taller Regional Quilmes" (IMPA).
 
 </div>
 
+
 ## ¿Cómo contactarnos?
 
 * 📧 Email: ecosorterimpa2024@gmail.com
