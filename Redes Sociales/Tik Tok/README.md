@@ -18,3 +18,7 @@ LINK: https://vm.tiktok.com/ZMhpNkEmh/
 OBJETIVOS
 
 LINK: https://vm.tiktok.com/ZMhpNVBPU/
+
+BENEFICIOS
+
+LINK: https://vm.tiktok.com/ZMhpF13ku/
