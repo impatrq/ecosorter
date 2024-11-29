@@ -47,7 +47,7 @@ Somos un grupo de alumnos de E.E.S.T. N°7 "Taller Regional Quilmes" (IMPA).
 * 📧 lucas.torrekens@gmail.com
 <div align="center">
 
-<img src="/imágenes/foto_grupal" width="450"/>
+<img src="/imágenes/foto_grupal.jpg" width="450"/>
 
 </div>
 
